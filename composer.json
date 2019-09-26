@@ -1,0 +1,14 @@
+{
+    "name": "banma/dnmp",
+    "description": "Install Docker + Nginx + PHP7.3 + MySQL",
+    "type": "project",
+    "license": "MIT",
+    "keywords": ["Docker", "Nginx", "PHP" ,"MySQL"],
+    "authors": [
+        {
+            "name": "luoding",
+            "email": "18852951201@163.com"
+        }
+    ],
+    "require": {}
+}

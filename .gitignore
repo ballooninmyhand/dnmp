@@ -1,0 +1,14 @@
+.DS_Store
+.idea/
+.vscode/
+php/logs/*
+nginx/logs/*
+nginx/conf/conf.d/*.conf
+!nginx/conf/conf.d/default.conf
+.env
+docker-compose.yml
+www/*
+!www/index.*
+mysql/data/*
+composer/*
+/vendor/
