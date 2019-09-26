@@ -1,7 +1,7 @@
 {
     "name": "banma/dnmp",
     "description": "Install Docker + Nginx + PHP7.3 + MySQL",
-    "type": "project",
+    "type": "package",
     "license": "MIT",
     "keywords": ["Docker", "Nginx", "PHP" ,"MySQL"],
     "authors": [
