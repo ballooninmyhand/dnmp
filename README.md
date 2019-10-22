@@ -20,7 +20,7 @@
 
 - 克隆项目
 
-> git clone https://github.com/luo-ding/dnmp.git
+> git clone https://github.com/ballooninmyhand/dnmp.git
 
 - 进入目录
 
