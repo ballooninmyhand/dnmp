@@ -1,7 +1,9 @@
 .DS_Store
 .idea/
 .vscode/
-php/logs/*
+php56/logs/*
+php71/logs/*
+php73/logs/*
 nginx/logs/*
 nginx/conf/conf.d/*.conf
 !nginx/conf/conf.d/default.conf
@@ -10,5 +12,6 @@ docker-compose.yml
 www/*
 !www/index.*
 mysql/data/*
+redis/data/*
 composer/*
 /vendor/

@@ -11,7 +11,11 @@
 ### 2. 包含的镜像
 
 - nginx-1.16.0
-- php7.3.9（包含composer，包含扩展 amqp、bcmath、Core、ctype、curl、date、dom、fileinfo、filter、ftp、gd、hash、iconv、imap、json、libxml、mbstring、memcached、mongodb、mysqlnd、openssl、pcre、PDO、pdo_mysql、pdo_sqlite、Phar、posix、readline、redis、Reflection、session、SimpleXML、SPL、sqlite3、standard、tokenizer、xml、xmlreader、xmlwriter、zip、zlib）
+- php7.3.10（包含composer，包含扩展 amqp、bcmath、Core、ctype、curl、date、dom、fileinfo、filter、ftp、gd、hash、iconv、imap、json、libxml、mbstring、memcached、mongodb、mysqlnd、openssl、pcre、PDO、pdo_mysql、pdo_sqlite、Phar、posix、readline、redis、Reflection、session、SimpleXML、SPL、sqlite3、standard、tokenizer、xml、xmlreader、xmlwriter、zip、zlib）
+- php7.1.7
+- php5.6.31
+- redis
+- mysql
 
 
 
@@ -30,13 +34,15 @@
 
 > cp env.example .env
 
-- 复制 docker-compose-product.yml 文件
+- 复制 docker-compose-example.yml 文件
 
-> cp docker-compose-product.yml docker-compose.yml
+> cp docker-compose-example.yml docker-compose.yml
 
 - 使用 `docker-compose` 创建容器，首次运行请加上 --build 参数
 
 > docker-compose up -d [--build]
+
+- 打开浏览器，访问 `localhost`
 
 - 停止并销毁容器
 
@@ -109,7 +115,7 @@
 
 
 
-### 7. 为什么 mac 上请求一个接口耗时超过 1s
+### 7. 为什么 mac 上请求一个接口响应需要很久
 
 - 问题：在 mac 上开发时，请求一个接口需要1800ms，而在linux上只需要300ms
 
