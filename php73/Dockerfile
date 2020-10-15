@@ -1,1 +1,1 @@
-FROM registry.cn-shanghai.aliyuncs.com/bmtrip/php
+FROM registry.cn-hangzhou.aliyuncs.com/balloon/php73
